@@ -34,3 +34,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# note: why the different gems for db in production and test? heroku uses postgresql, but sqlite3 is easier for learnin'
