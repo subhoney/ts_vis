@@ -4,6 +4,7 @@ class StaticPagesController < ApplicationController
   #   this functionatlity is because the controller inherits form the ApplicationController class
   
   def home
+    render html: "Foo"
   end
 
   def help

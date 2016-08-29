@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-  @base_title = "Timesheet Visualization #{:title} || Haskell" # stubbed for later
+  #@base_title = "Timesheet Visualization #{:title} || Haskell" # stubbed for later
   
   test "should get home" do
     get static_pages_home_url
